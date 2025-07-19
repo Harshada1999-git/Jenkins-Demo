@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        TF_VERSION = "1.6.0"   // Specify your Terraform version
+        TF_VERSION = "6.43.0"   // Specify your Terraform version
     }
 
     stages {
